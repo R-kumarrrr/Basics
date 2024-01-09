@@ -8,12 +8,19 @@
     <link rel="icon" href="w3c-html5-logo-0.png">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#Want">Place I like to visit</a></li>
+            <li><a href="#Dontwant">Place I like to avoid</a></li>
+        </ul>
+    </nav>
     <h1>Different types of Lists</h1>
     <hr>
     <h2>Unordered List</h2>
     <p>This is a list of things I want to buy.</p>
     <ul>
-        <li>Car</li>
+        <!-- Absolute link -->
+        <li>Car- <a href="https://www.lamborghini.com/en-en"> Lamborghini </a></li>
         <li>House</li>
         <li>Bike</li>
     </ul>
@@ -24,13 +31,14 @@
         <li>b</li>
         <li>c</li>
     </ol>
-    <h3>Ol with Type</h3>
+    <h3 id="Want">Ol with Type</h3>
+    <p>Places I like to visit:</p>
     <ol type="a" start="1">
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
+        <li>Paris</li>
+        <li>New York</li>
+        <li>London</li>
     </ol>
-    <h2>Description List</h2>
+    <h2 id="Dontwant">Description List</h2>
     <p>Places I like to avoid visiting:</p>
     <dl>
         <dt>North pole</dt>
@@ -39,5 +47,8 @@
         <dt>Amazon</dt>
         <dd>This is full of wildlife. </dd>
     </dl>
+    <!-- Relative link -->
+    &lt;&lt;&copy; <a href="about.html">Rajat kumar</a> &gt;&gt;
+    <p><a href="#">Back to top</a></p>
 </body>
 </html>
